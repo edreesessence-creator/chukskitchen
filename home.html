@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css/home.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style-type: none;
+        }
+        nav {
+            display: inline-flex;
+            justify-content: space-evenly;
+            gap: 70px;
+            width: 100%;
+            padding: 15px 20px;
+        }
+        .tilt{
+            position: absolute;
+            width: 450px;
+            left: 150px;
+            top: 200px;
+            align-items: start;
+            line-height: 40px;
+            color: white;
+            font-size: large;
+            font-weight: 900;
+        }
+        .tilt > button{
+            align-items: start;
+        }
+        
+        .tilt > button > a, nav > button > a {
+            background-color: rgb(255, 115, 0);
+            color: white;
+            border: none;
+            text-decoration: none;
+        }
+        button{
+            padding: 5px 10px;
+            background-color:  rgb(255, 115, 0);
+            border: none;
+        }
+        .hero-image{
+            width: 100%;
+            height: 100vh;
+
+        }
+        .name, .home{
+            color: rgb(255, 153, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+            <li class="name">Chucks Kitchen</li>
+            <li class="home">Home</li>
+            <li>Explore</li>
+            <li>My Order</li>
+            <li>Account</li>
+            <button><a href="signin.html">Log In</a></button>
+        </nav>
+    <section class="hero">
+        
+        <div class="hero-image">
+            <div class="tilt">
+                <h2>The Heart of Nigerian Home <br>
+                    Cooking
+                </h2>
+                <h4>Handcrafted with passion, delivered with care.</h4>
+                <button><a href="home.html">Discover what's new</a></button>
+            </div>
+            <img class="hero-image" src="/assets/home hero.png" alt="">
+        </div>
+
+
+    </section>
+</body>
+
+</html>
